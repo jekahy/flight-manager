@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F299974214F002AE00056509 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F299974114F002AE00056509 /* Foundation.framework */; };
+		F299974514F002AE00056509 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F299974414F002AE00056509 /* main.m */; };
+		F299974914F002AE00056509 /* flight_manager.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F299974814F002AE00056509 /* flight_manager.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F299973B14F002AE00056509 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				F299974914F002AE00056509 /* flight_manager.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F299973D14F002AE00056509 /* flight manager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "flight manager"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F299974114F002AE00056509 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F299974414F002AE00056509 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F299974714F002AE00056509 /* flight manager-Prefix.pch */ = {isa = PBXFileReference; path = "flight manager-Prefix.pch"; sourceTree = "<group>"; };
+		F299974814F002AE00056509 /* flight_manager.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = flight_manager.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F299973A14F002AE00056509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F299974214F002AE00056509 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F299973214F002AE00056509 = {
+			isa = PBXGroup;
+			children = (
+				F299974314F002AE00056509 /* flight manager */,
+				F299974014F002AE00056509 /* Frameworks */,
+				F299973E14F002AE00056509 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F299973E14F002AE00056509 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F299973D14F002AE00056509 /* flight manager */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F299974014F002AE00056509 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F299974114F002AE00056509 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F299974314F002AE00056509 /* flight manager */ = {
+			isa = PBXGroup;
+			children = (
+				F299974414F002AE00056509 /* main.m */,
+				F299974814F002AE00056509 /* flight_manager.1 */,
+				F299974614F002AE00056509 /* Supporting Files */,
+			);
+			path = "flight manager";
+			sourceTree = "<group>";
+		};
+		F299974614F002AE00056509 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F299974714F002AE00056509 /* flight manager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F299973C14F002AE00056509 /* flight manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F299974C14F002AE00056509 /* Build configuration list for PBXNativeTarget "flight manager" */;
+			buildPhases = (
+				F299973914F002AE00056509 /* Sources */,
+				F299973A14F002AE00056509 /* Frameworks */,
+				F299973B14F002AE00056509 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "flight manager";
+			productName = "flight manager";
+			productReference = F299973D14F002AE00056509 /* flight manager */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F299973414F002AE00056509 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F299973714F002AE00056509 /* Build configuration list for PBXProject "flight manager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F299973214F002AE00056509;
+			productRefGroup = F299973E14F002AE00056509 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F299973C14F002AE00056509 /* flight manager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F299973914F002AE00056509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F299974514F002AE00056509 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F299974A14F002AE00056509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F299974B14F002AE00056509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F299974D14F002AE00056509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flight manager/flight manager-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F299974E14F002AE00056509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flight manager/flight manager-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F299973714F002AE00056509 /* Build configuration list for PBXProject "flight manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F299974A14F002AE00056509 /* Debug */,
+				F299974B14F002AE00056509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F299974C14F002AE00056509 /* Build configuration list for PBXNativeTarget "flight manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F299974D14F002AE00056509 /* Debug */,
+				F299974E14F002AE00056509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F299973414F002AE00056509 /* Project object */;
+}
