@@ -29,7 +29,7 @@
 		F299973D14F002AE00056509 /* flight manager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "flight manager"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F299974114F002AE00056509 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F299974414F002AE00056509 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F299974714F002AE00056509 /* flight manager-Prefix.pch */ = {isa = PBXFileReference; path = "flight manager-Prefix.pch"; sourceTree = "<group>"; };
+		F299974714F002AE00056509 /* flight manager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "flight manager-Prefix.pch"; sourceTree = "<group>"; };
 		F299974814F002AE00056509 /* flight_manager.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = flight_manager.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
